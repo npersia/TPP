@@ -20,7 +20,7 @@ docker compose logs -f backend
 
 4. Probar los componentes en el navegador
 
-- **App Web Principal (React + Nginx + FastAPI):** http://localhost:3000 (Al recargar la página, verás incrementar el contador de visitas guardado en Redis y la conexión exitosa a Postgres).
+- **App Web Principal (React + Nginx + FastAPI):** http://localhost (Al recargar la página, verás incrementar el contador de visitas guardado en Redis y la conexión exitosa a Postgres).
 - **API Backend (Swagger Docs):** http://localhost:8000/docs
 - **Prometheus:** http://localhost:9090
 - **cAdvisor:** http://localhost:8080
